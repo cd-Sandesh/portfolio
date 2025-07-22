@@ -1,0 +1,165 @@
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    height: 8vh;
+    background-color: #333;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_link{
+     display: flex;
+     gap: 3rem;
+     list-style: none;
+     margin-top: 14px;
+
+ 
+}
+.nav_link a{
+  text-decoration: none;
+  color :#fff;
+  font-size: 22px;
+  font-weight: lighter;
+
+}
+nav{
+   position: relative;
+    left: 70px;
+}
+body{
+    
+    
+     background-color:skyblue ;
+   
+   
+}
+
+.fake_header{
+    width: 100%;
+    top: 0;
+    height: 8vh;
+}
+.main{
+    margin-top:30px ;
+    height: 60vh;
+    width: 30%;
+    /* border: 1px solid black; */
+}
+.about_me p{
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+   font-weight: 400;
+}
+
+
+footer{
+    height: 150px;
+    width: 100%;
+   
+   background-color: rgba(0, 0, 0, 0.842);
+    display: flex;
+    
+}
+#box1{
+    height: 400px;
+    width: 40%;
+    margin-top: 70px;
+   
+
+  
+}
+.hero{
+    display: flex;
+}
+#box2{
+     height: 350px;
+     width: 300px;
+     position: relative;
+      margin-top: 50px;
+      left: 400px;
+      background: none;  
+     
+   
+    
+    
+}
+
+    img {
+  transform: rotate(357deg); /* Rotates 45 degrees clockwise */
+  border: image 30px;;
+
+}
+.skill h1{
+    text-align: center;
+}
+#box3{
+    height: 340px;
+    width: 300px;
+    background-color: rgb(224, 222, 222);
+    border-radius: 10px;
+    position: relative;
+    left: 200px;
+}
+#box3 h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+  font-weight: bolder;
+    
+}
+p{
+    margin: 50px;
+    font-size: 30px;
+
+}
+a,h3{
+    font-size: large;
+    color: black;
+    text-align: end
+    ;
+    
+    text-decoration: none;
+}
+#box4{
+     height: 340px;
+    width: 300px;
+     background-color: rgb(224, 222, 222);
+    position: relative;
+    left: 500px;
+      border-radius: 10px;
+}
+#box_flex{
+    display: flex;
+  
+    
+}
+.ed p{
+    font-size:30px;
+}
+#box4 h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+  font-weight: bolder;
+  
+}
+h4{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ #new_box1{
+    height: 150px;
+    width: 200px;
+    background-color: #fff;
+     margin-left: 40px;
+ }
+footer p{
+    color: #fff;
+}
